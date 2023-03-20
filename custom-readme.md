@@ -5,5 +5,6 @@
 - corepack yarn --version
 - corepack yarn@3.2.2 install
 - corepack yarn@3.2.2 build
-- corepack yarn@3.2.2 dsv
+- corepack yarn@3.2.2 ds
+- git push --force --verbose --no-verifyv
 
