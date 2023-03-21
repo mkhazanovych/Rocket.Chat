@@ -8,5 +8,5 @@
 - add -x option to execSync(`sh -x ${pluginPath}/build.sh`, options); in /progs/Rocket.Chat/apps/meteor/packages/rocketchat-livechat/plugin/build-livechat.js  
 - corepack yarn@3.2.2 build
 - corepack yarn@3.2.2 dsv
-- git push --force --verbose --no-verifyv
+- git push --force --verbose --no-verify
 

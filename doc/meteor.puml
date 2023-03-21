@@ -16,23 +16,7 @@ rectangle apps {
     rectangle meteor {
         rectangle client {
             class routes {
-                route '/'
-                route '/login'
-                route '/meet/:rid'
-                route '/directory/:tab?'
-                route /omnichannel-directory/:page?/:bar?/:id?/:tab?/:context?'
-                route '/livechat-queue'
-                route '/terms-of-service'
-                route '/privacy-policy'
-                route '/legal-notice'
-                route '/register/:hash'
-                route '/invite/:hash'
-                route '/setup-wizard/:step?'
-                route '/mailer/unsubscribe/:_id/:createdAt'
-                route '/login-token/:token'
-                route '/reset-password/:token'
-                route '/oauth/authorize'
-                route '/oauth/error/:error'
+                route ('/', '/login', '/meet/:rid', '/directory/:tab?', /omnichannel-directory/:page?/:bar?/:id?/:tab?/:context?', '/livechat-queue', '/terms-of-service', '/privacy-policy', '/legal-notice', '/register/:hash', '/invite/:hash', '/setup-wizard/:step?', '/mailer/unsubscribe/:_id/:createdAt', '/login-token/:token', '/reset-password/:token', '/oauth/authorize', '/oauth/error/:error' )
             }
             rectangle hooks {
             }
@@ -50,6 +34,9 @@ rectangle connect {
     interface Server extends NodeJS.EventEmitter
 }
 
+
+WebApp ..> Server: connectHandlers ('/avatar/room/', '/avatar/', '/data-export/')
+WebApp ..> Server: rawConnectHandlers ('/health', '/_timesync`)
 
 
 
