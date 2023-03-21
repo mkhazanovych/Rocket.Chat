@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+allow_mixing
+skinparam TitleFontSize 18
+skinparam ClassFontSize 16
+skinparam RectangleFontSize 16
+skinparam InterfaceFontSize 16
+
+title RocketChat
+
+rectangle NodeJS {
+    interface EventEmitter
+}
+
+rectangle apps {
+    rectangle meteor {
+        rectangle client {
+            class routes {
+                route '/'
+                route '/login'
+                route '/meet/:rid'
+                route '/directory/:tab?'
+                route /omnichannel-directory/:page?/:bar?/:id?/:tab?/:context?'
+                route '/livechat-queue'
+                route '/terms-of-service'
+                route '/privacy-policy'
+                route '/legal-notice'
+                route '/register/:hash'
+                route '/invite/:hash'
+                route '/setup-wizard/:step?'
+                route '/mailer/unsubscribe/:_id/:createdAt'
+                route '/login-token/:token'
+                route '/reset-password/:token'
+                route '/oauth/authorize'
+                route '/oauth/error/:error'
+            }
+            rectangle hooks {
+            }
+        }
+
+        rectangle server {
+            class WebApp {
+
+            }
+        }
+    }
+}
+
+rectangle connect {
+    interface Server extends NodeJS.EventEmitter
+}
+
+
+
+
+
+
+@enduml
