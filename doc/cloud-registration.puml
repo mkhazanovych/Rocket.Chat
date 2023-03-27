@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+allow_mixing
+
+
+
+rectangle client {
+
+    class Meteor {
+    }
+
+    class SetupWizardPage {
+    }
+
+    class AdminInfoStep {}
+
+    class OrganizationInfoStep
+
+    class RegisterServerStep
+
+    class CloudAccountConfirmation
+}
+
+rectangle server {
+}
+
+rectangle cloud {
+}
+
+Meteor ..> SetupWizardPage: startup
+SetupWizardPage ..> AdminInfoStep: 1
+SetupWizardPage ..> OrganizationInfoStep: 2
+SetupWizardPage ..> RegisterServerStep: 3
+SetupWizardPage ..> CloudAccountConfirmation: 4
+
+@enduml
