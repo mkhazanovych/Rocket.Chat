@@ -28,6 +28,14 @@ rectangle apps {
             }
         }
     }
+    rectangle api {
+        rectangle server {
+            rectangle v1 {
+                class API{
+                }
+            }
+        }
+    }
 }
 
 rectangle connect {

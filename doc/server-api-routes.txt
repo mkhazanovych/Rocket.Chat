@@ -1,0 +1,1280 @@
+./api/server/default/info.ts:API.default.addRoute(
+./api/server/default/info.ts-	'info',
+--
+./api/server/default/info.ts:API.default.addRoute(
+./api/server/default/info.ts-	'ecdh_proxy/initEncryptedSession',
+--
+./api/server/v1/cloud.ts:API.v1.addRoute(
+./api/server/v1/cloud.ts-	'cloud.manualRegister',
+--
+./api/server/v1/cloud.ts:API.v1.addRoute(
+./api/server/v1/cloud.ts-	'cloud.createRegistrationIntent',
+--
+./api/server/v1/cloud.ts:API.v1.addRoute(
+./api/server/v1/cloud.ts-	'cloud.registerPreIntent',
+--
+./api/server/v1/cloud.ts:API.v1.addRoute(
+./api/server/v1/cloud.ts-	'cloud.confirmationPoll',
+--
+./api/server/v1/cloud.ts:API.v1.addRoute(
+./api/server/v1/cloud.ts-	'cloud.registrationStatus',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'uploadImportFile',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'downloadPublicImportFile',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'startImport',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'getImportFileData',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'getImportProgress',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'getLatestImportOperations',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'downloadPendingFiles',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'downloadPendingAvatars',
+--
+./api/server/v1/import.ts:API.v1.addRoute(
+./api/server/v1/import.ts-	'getCurrentImportOperation',
+--
+./api/server/v1/push.ts:API.v1.addRoute(
+./api/server/v1/push.ts-	'push.token',
+--
+./api/server/v1/push.ts:API.v1.addRoute(
+./api/server/v1/push.ts-	'push.get',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'me',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'shield.svg',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'spotlight',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'directory',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'pw.getPolicy',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'pw.getPolicyReset',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'stdout.queue',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'method.call/:method',
+--
+./api/server/v1/misc.ts:API.v1.addRoute(
+./api/server/v1/misc.ts-	'method.callAnon/:method',
+--
+./api/server/v1/stats.ts:API.v1.addRoute(
+./api/server/v1/stats.ts-	'statistics',
+--
+./api/server/v1/stats.ts:API.v1.addRoute(
+./api/server/v1/stats.ts-	'statistics.list',
+--
+./api/server/v1/stats.ts:API.v1.addRoute(
+./api/server/v1/stats.ts-	'statistics.telemetry',
+--
+./api/server/v1/dns.ts:API.v1.addRoute(
+./api/server/v1/dns.ts-	'dns.resolve.srv',
+--
+./api/server/v1/dns.ts:API.v1.addRoute(
+./api/server/v1/dns.ts-	'dns.resolve.txt',
+--
+./api/server/v1/assets.ts:API.v1.addRoute(
+./api/server/v1/assets.ts-	'assets.setAsset',
+--
+./api/server/v1/assets.ts:API.v1.addRoute(
+./api/server/v1/assets.ts-	'assets.unsetAsset',
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.create', 'im.create'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.delete', 'im.delete'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.close', 'im.close'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.counters', 'im.counters'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.files', 'im.files'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.history', 'im.history'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.members', 'im.members'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.messages', 'im.messages'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.messages.others', 'im.messages.others'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.list', 'im.list'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.list.everyone', 'im.list.everyone'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.open', 'im.open'],
+--
+./api/server/v1/im.ts:API.v1.addRoute(
+./api/server/v1/im.ts-	['dm.setTopic', 'im.setTopic'],
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.list',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.listAll',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.create',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.convertToChannel',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.addRooms',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.removeRoom',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.updateRoom',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.listRooms',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.listRoomsOfUser',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.members',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.addMembers',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.updateMember',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.removeMember',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.leave',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.info',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.delete',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.autocomplete',
+--
+./api/server/v1/teams.ts:API.v1.addRoute(
+./api/server/v1/teams.ts-	'teams.update',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getAvatar',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getAvatarSuggestion',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.update',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.updateOwnBasicInfo',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.setPreferences',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.setAvatar',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.create',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.delete',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.deleteOwnAccount',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.setActiveStatus',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.deactivateIdle',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.info',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.list',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.register',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.resetAvatar',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.createToken',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getPreferences',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.forgotPassword',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getUsernameSuggestion',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.checkUsernameAvailability',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.generatePersonalAccessToken',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.regeneratePersonalAccessToken',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getPersonalAccessTokens',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.removePersonalAccessToken',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.2fa.enableEmail',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.2fa.disableEmail',
+--
+./api/server/v1/users.ts:API.v1.addRoute('users.2fa.sendEmailCode', {
+./api/server/v1/users.ts-	post() {
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.sendConfirmationEmail',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.presence',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.requestDataDownload',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.logoutOtherClients',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.autocomplete',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.removeOtherTokens',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.resetE2EKey',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.resetTOTP',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.listTeams',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.logout',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getPresence',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.setStatus',
+--
+./api/server/v1/users.ts:API.v1.addRoute(
+./api/server/v1/users.ts-	'users.getStatus',
+--
+./api/server/v1/presence.ts:API.v1.addRoute(
+./api/server/v1/presence.ts-	'presence.getConnections',
+--
+./api/server/v1/presence.ts:API.v1.addRoute(
+./api/server/v1/presence.ts-	'presence.enableBroadcast',
+--
+./api/server/v1/subscriptions.ts:API.v1.addRoute(
+./api/server/v1/subscriptions.ts-	'subscriptions.get',
+--
+./api/server/v1/subscriptions.ts:API.v1.addRoute(
+./api/server/v1/subscriptions.ts-	'subscriptions.getOne',
+--
+./api/server/v1/subscriptions.ts:API.v1.addRoute(
+./api/server/v1/subscriptions.ts-	'subscriptions.read',
+--
+./api/server/v1/subscriptions.ts:API.v1.addRoute(
+./api/server/v1/subscriptions.ts-	'subscriptions.unread',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.fetchMyKeys',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.getUsersOfRoomWithoutKey',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.setRoomKeyID',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.setUserPublicAndPrivateKeys',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.updateGroupKey',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.acceptSuggestedGroupKey',
+--
+./api/server/v1/e2e.ts:API.v1.addRoute(
+./api/server/v1/e2e.ts-	'e2e.rejectSuggestedGroupKey',
+--
+./api/server/v1/custom-user-status.ts:API.v1.addRoute(
+./api/server/v1/custom-user-status.ts-	'custom-user-status.list',
+--
+./api/server/v1/custom-user-status.ts:API.v1.addRoute(
+./api/server/v1/custom-user-status.ts-	'custom-user-status.create',
+--
+./api/server/v1/custom-user-status.ts:API.v1.addRoute(
+./api/server/v1/custom-user-status.ts-	'custom-user-status.delete',
+--
+./api/server/v1/custom-user-status.ts:API.v1.addRoute(
+./api/server/v1/custom-user-status.ts-	'custom-user-status.update',
+--
+./api/server/v1/commands.ts:API.v1.addRoute(
+./api/server/v1/commands.ts-	'commands.get',
+--
+./api/server/v1/commands.ts:API.v1.addRoute(
+./api/server/v1/commands.ts-	'commands.list',
+--
+./api/server/v1/commands.ts:API.v1.addRoute(
+./api/server/v1/commands.ts-	'commands.run',
+--
+./api/server/v1/commands.ts:API.v1.addRoute(
+./api/server/v1/commands.ts-	'commands.preview',
+--
+./api/server/v1/email-inbox.ts:API.v1.addRoute(
+./api/server/v1/email-inbox.ts-	'email-inbox.list',
+--
+./api/server/v1/email-inbox.ts:API.v1.addRoute(
+./api/server/v1/email-inbox.ts-	'email-inbox',
+--
+./api/server/v1/email-inbox.ts:API.v1.addRoute(
+./api/server/v1/email-inbox.ts-	'email-inbox/:_id',
+--
+./api/server/v1/email-inbox.ts:API.v1.addRoute(
+./api/server/v1/email-inbox.ts-	'email-inbox.search',
+--
+./api/server/v1/email-inbox.ts:API.v1.addRoute(
+./api/server/v1/email-inbox.ts-	'email-inbox.send-test/:_id',
+--
+./api/server/v1/instances.ts:API.v1.addRoute(
+./api/server/v1/instances.ts-	'instances.get',
+--
+./api/server/v1/permissions.ts:API.v1.addRoute(
+./api/server/v1/permissions.ts-	'permissions.listAll',
+--
+./api/server/v1/permissions.ts:API.v1.addRoute(
+./api/server/v1/permissions.ts-	'permissions.update',
+--
+./api/server/v1/invites.ts:API.v1.addRoute(
+./api/server/v1/invites.ts-	'listInvites',
+--
+./api/server/v1/invites.ts:API.v1.addRoute(
+./api/server/v1/invites.ts-	'findOrCreateInvite',
+--
+./api/server/v1/invites.ts:API.v1.addRoute(
+./api/server/v1/invites.ts-	'removeInvite/:_id',
+--
+./api/server/v1/invites.ts:API.v1.addRoute(
+./api/server/v1/invites.ts-	'useInviteToken',
+--
+./api/server/v1/invites.ts:API.v1.addRoute(
+./api/server/v1/invites.ts-	'validateInviteToken',
+--
+./api/server/v1/invites.ts:API.v1.addRoute(
+./api/server/v1/invites.ts-	'sendInvitationEmail',
+--
+./api/server/v1/oauthapps.ts:API.v1.addRoute(
+./api/server/v1/oauthapps.ts-	'oauth-apps.list',
+--
+./api/server/v1/oauthapps.ts:API.v1.addRoute(
+./api/server/v1/oauthapps.ts-	'oauth-apps.get',
+--
+./api/server/v1/oauthapps.ts:API.v1.addRoute(
+./api/server/v1/oauthapps.ts-	'oauth-apps.create',
+--
+./api/server/v1/autotranslate.ts:API.v1.addRoute(
+./api/server/v1/autotranslate.ts-	'autotranslate.getSupportedLanguages',
+--
+./api/server/v1/autotranslate.ts:API.v1.addRoute(
+./api/server/v1/autotranslate.ts-	'autotranslate.saveSettings',
+--
+./api/server/v1/autotranslate.ts:API.v1.addRoute(
+./api/server/v1/autotranslate.ts-	'autotranslate.translateMessage',
+--
+./api/server/v1/webdav.ts:API.v1.addRoute(
+./api/server/v1/webdav.ts-	'webdav.getMyAccounts',
+--
+./api/server/v1/webdav.ts:API.v1.addRoute(
+./api/server/v1/webdav.ts-	'webdav.removeWebdavAccount',
+--
+./api/server/v1/emoji-custom.ts:API.v1.addRoute(
+./api/server/v1/emoji-custom.ts-	'emoji-custom.list',
+--
+./api/server/v1/emoji-custom.ts:API.v1.addRoute(
+./api/server/v1/emoji-custom.ts-	'emoji-custom.all',
+--
+./api/server/v1/emoji-custom.ts:API.v1.addRoute(
+./api/server/v1/emoji-custom.ts-	'emoji-custom.create',
+--
+./api/server/v1/emoji-custom.ts:API.v1.addRoute(
+./api/server/v1/emoji-custom.ts-	'emoji-custom.update',
+--
+./api/server/v1/emoji-custom.ts:API.v1.addRoute(
+./api/server/v1/emoji-custom.ts-	'emoji-custom.delete',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.nameExists',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.delete',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.get',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.upload/:rid',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.saveNotification',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.favorite',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.cleanHistory',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.info',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.leave',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.createDiscussion',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.getDiscussions',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.adminRooms',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.autocomplete.adminRooms',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.adminRooms.getRoom',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.autocomplete.channelAndPrivate',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.autocomplete.channelAndPrivate.withPagination',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.autocomplete.availableForTeams',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.saveRoomSettings',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.changeArchivationState',
+--
+./api/server/v1/rooms.ts:API.v1.addRoute(
+./api/server/v1/rooms.ts-	'rooms.export',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.start',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.join',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.cancel',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.info',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.list',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.providers',
+--
+./api/server/v1/videoConference.ts:API.v1.addRoute(
+./api/server/v1/videoConference.ts-	'video-conference.capabilities',
+--
+./api/server/v1/voip/server-connection.ts:API.v1.addRoute(
+./api/server/v1/voip/server-connection.ts-	'voip/managementServer/checkConnection',
+--
+./api/server/v1/voip/server-connection.ts:API.v1.addRoute(
+./api/server/v1/voip/server-connection.ts-	'voip/callServer/checkConnection',
+--
+./api/server/v1/voip/omnichannel.ts:API.v1.addRoute(
+./api/server/v1/voip/omnichannel.ts-	'omnichannel/agent/extension',
+--
+./api/server/v1/voip/omnichannel.ts:API.v1.addRoute(
+./api/server/v1/voip/omnichannel.ts-	'omnichannel/agent/extension/:username',
+--
+./api/server/v1/voip/omnichannel.ts:API.v1.addRoute(
+./api/server/v1/voip/omnichannel.ts-	'omnichannel/extension',
+--
+./api/server/v1/voip/omnichannel.ts:API.v1.addRoute(
+./api/server/v1/voip/omnichannel.ts-	'omnichannel/extensions',
+--
+./api/server/v1/voip/omnichannel.ts:API.v1.addRoute(
+./api/server/v1/voip/omnichannel.ts-	'omnichannel/agents/available',
+--
+./api/server/v1/voip/extensions.ts:API.v1.addRoute(
+./api/server/v1/voip/extensions.ts-	'connector.getVersion',
+--
+./api/server/v1/voip/extensions.ts:API.v1.addRoute(
+./api/server/v1/voip/extensions.ts-	'connector.extension.list',
+--
+./api/server/v1/voip/extensions.ts:API.v1.addRoute(
+./api/server/v1/voip/extensions.ts-	'connector.extension.getDetails',
+--
+./api/server/v1/voip/extensions.ts:API.v1.addRoute(
+./api/server/v1/voip/extensions.ts-	'connector.extension.getRegistrationInfoByExtension',
+--
+./api/server/v1/voip/extensions.ts:API.v1.addRoute(
+./api/server/v1/voip/extensions.ts-	'connector.extension.getRegistrationInfoByUserId',
+--
+./api/server/v1/voip/rooms.ts:API.v1.addRoute(
+./api/server/v1/voip/rooms.ts-	'voip/room',
+--
+./api/server/v1/voip/rooms.ts:API.v1.addRoute(
+./api/server/v1/voip/rooms.ts-	'voip/rooms',
+--
+./api/server/v1/voip/rooms.ts:API.v1.addRoute(
+./api/server/v1/voip/rooms.ts-	'voip/room.close',
+--
+./api/server/v1/voip/events.ts:API.v1.addRoute(
+./api/server/v1/voip/events.ts-	'voip/events',
+--
+./api/server/v1/voip/queues.ts:API.v1.addRoute(
+./api/server/v1/voip/queues.ts-	'voip/queues.getSummary',
+--
+./api/server/v1/voip/queues.ts:API.v1.addRoute(
+./api/server/v1/voip/queues.ts-	'voip/queues.getQueuedCallsForThisExtension',
+--
+./api/server/v1/voip/queues.ts:API.v1.addRoute(
+./api/server/v1/voip/queues.ts-	'voip/queues.getMembershipSubscription',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.addAll',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.addModerator',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.addOwner',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.addLeader',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.archive',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.close',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.counters',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.create',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.delete',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.files',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.getIntegrations',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.history',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.info',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.invite',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.kick',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.leave',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.list',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.listAll',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.members',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.messages',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.online',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.open',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.removeModerator',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.removeOwner',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.removeLeader',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.rename',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setCustomFields',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setDescription',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setPurpose',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setReadOnly',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setTopic',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setType',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setAnnouncement',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.unarchive',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.roles',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.moderators',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.setEncrypted',
+--
+./api/server/v1/groups.ts:API.v1.addRoute(
+./api/server/v1/groups.ts-	'groups.convertToTeam',
+--
+./api/server/v1/settings.ts:API.v1.addRoute(
+./api/server/v1/settings.ts-	'settings.public',
+--
+./api/server/v1/settings.ts:API.v1.addRoute(
+./api/server/v1/settings.ts-	'settings.oauth',
+--
+./api/server/v1/settings.ts:API.v1.addRoute(
+./api/server/v1/settings.ts-	'settings.addCustomOAuth',
+--
+./api/server/v1/settings.ts:API.v1.addRoute(
+./api/server/v1/settings.ts-	'settings',
+--
+./api/server/v1/settings.ts:API.v1.addRoute(
+./api/server/v1/settings.ts-	'settings/:_id',
+--
+./api/server/v1/settings.ts:API.v1.addRoute(
+./api/server/v1/settings.ts-	'service.configurations',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.addAll',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.archive',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.unarchive',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.history',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.roles',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.join',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.kick',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.leave',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.messages',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.open',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setReadOnly',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setAnnouncement',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.getAllUserMentionsByChannel',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.moderators',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.delete',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.convertToTeam',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.addModerator',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.addOwner',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.close',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.counters',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.create',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.files',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.getIntegrations',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.info',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.invite',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.list',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.list.joined',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.members',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.online',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.removeModerator',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.removeOwner',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.rename',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setCustomFields',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setDefault',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setDescription',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setPurpose',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setTopic',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setType',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.addLeader',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.removeLeader',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.setJoinCode',
+--
+./api/server/v1/channels.ts:API.v1.addRoute(
+./api/server/v1/channels.ts-	'channels.anonymousread',
+--
+./api/server/v1/custom-sounds.ts:API.v1.addRoute(
+./api/server/v1/custom-sounds.ts-	'custom-sounds.list',
+--
+./api/server/v1/banners.ts:API.v1.addRoute(
+./api/server/v1/banners.ts-	'banners.getNew',
+--
+./api/server/v1/banners.ts:API.v1.addRoute(
+./api/server/v1/banners.ts-	'banners/:id',
+--
+./api/server/v1/banners.ts:API.v1.addRoute(
+./api/server/v1/banners.ts-	'banners',
+--
+./api/server/v1/banners.ts:API.v1.addRoute(
+./api/server/v1/banners.ts-	'banners.dismiss',
+--
+./api/server/v1/ldap.ts:API.v1.addRoute(
+./api/server/v1/ldap.ts-	'ldap.testConnection',
+--
+./api/server/v1/ldap.ts:API.v1.addRoute(
+./api/server/v1/ldap.ts-	'ldap.testSearch',
+--
+./api/server/v1/integrations.ts:API.v1.addRoute(
+./api/server/v1/integrations.ts-	'integrations.create',
+--
+./api/server/v1/integrations.ts:API.v1.addRoute(
+./api/server/v1/integrations.ts-	'integrations.history',
+--
+./api/server/v1/integrations.ts:API.v1.addRoute(
+./api/server/v1/integrations.ts-	'integrations.list',
+--
+./api/server/v1/integrations.ts:API.v1.addRoute(
+./api/server/v1/integrations.ts-	'integrations.remove',
+--
+./api/server/v1/integrations.ts:API.v1.addRoute(
+./api/server/v1/integrations.ts-	'integrations.get',
+--
+./api/server/v1/integrations.ts:API.v1.addRoute(
+./api/server/v1/integrations.ts-	'integrations.update',
+--
+./api/server/v1/roles.ts:API.v1.addRoute(
+./api/server/v1/roles.ts-	'roles.list',
+--
+./api/server/v1/roles.ts:API.v1.addRoute(
+./api/server/v1/roles.ts-	'roles.sync',
+--
+./api/server/v1/roles.ts:API.v1.addRoute(
+./api/server/v1/roles.ts-	'roles.addUserToRole',
+--
+./api/server/v1/roles.ts:API.v1.addRoute(
+./api/server/v1/roles.ts-	'roles.getUsersInRole',
+--
+./api/server/v1/roles.ts:API.v1.addRoute(
+./api/server/v1/roles.ts-	'roles.delete',
+--
+./api/server/v1/roles.ts:API.v1.addRoute(
+./api/server/v1/roles.ts-	'roles.removeUserFromRole',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.delete',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.syncMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.pinMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.postMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.search',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.sendMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.starMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.unPinMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.unStarMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.update',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.react',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.reportMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.ignoreUser',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getDeletedMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getPinnedMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getThreadsList',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.syncThreadsList',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getThreadMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.syncThreadMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.followMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.unfollowMessage',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getMentionedMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getStarredMessages',
+--
+./api/server/v1/chat.ts:API.v1.addRoute(
+./api/server/v1/chat.ts-	'chat.getDiscussions',
+--
+./api/server/v1/mailer.ts:API.v1.addRoute(
+./api/server/v1/mailer.ts-	'mailer',
+--
+./api/server/v1/mailer.ts:API.v1.addRoute(
+./api/server/v1/mailer.ts-	'mailer.unsubscribe',
+--
+./api/server/api.js:			super.addRoute(route, options, endpoints);
+./api/server/api.js-		});
+--
+./api/server/api.js:		this.addRoute(
+./api/server/api.js-			'login',
+--
+./api/server/api.js:		return this.addRoute(
+./api/server/api.js-			'logout',
+--
+./livechat/imports/server/rest/sms.js:API.v1.addRoute('livechat/sms-incoming/:service', {
+./livechat/imports/server/rest/sms.js-	async post() {
+--
+./livechat/imports/server/rest/appearance.ts:API.v1.addRoute(
+./livechat/imports/server/rest/appearance.ts-	'livechat/appearance',
+--
+./livechat/imports/server/rest/users.ts:API.v1.addRoute(
+./livechat/imports/server/rest/users.ts-	'livechat/users/:type',
+--
+./livechat/imports/server/rest/users.ts:API.v1.addRoute(
+./livechat/imports/server/rest/users.ts-	'livechat/users/:type/:_id',
+--
+./livechat/imports/server/rest/inquiries.ts:API.v1.addRoute(
+./livechat/imports/server/rest/inquiries.ts-	'livechat/inquiries.list',
+--
+./livechat/imports/server/rest/inquiries.ts:API.v1.addRoute(
+./livechat/imports/server/rest/inquiries.ts-	'livechat/inquiries.take',
+--
+./livechat/imports/server/rest/inquiries.ts:API.v1.addRoute(
+./livechat/imports/server/rest/inquiries.ts-	'livechat/inquiries.queued',
+--
+./livechat/imports/server/rest/inquiries.ts:API.v1.addRoute(
+./livechat/imports/server/rest/inquiries.ts-	'livechat/inquiries.queuedForUser',
+--
+./livechat/imports/server/rest/inquiries.ts:API.v1.addRoute(
+./livechat/imports/server/rest/inquiries.ts-	'livechat/inquiries.getOne',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/conversation-totalizers',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/agents-productivity-totalizers',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/chats-totalizers',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/productivity-totalizers',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/charts/chats',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/charts/chats-per-agent',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/charts/agents-status',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/charts/chats-per-department',
+--
+./livechat/imports/server/rest/dashboards.ts:API.v1.addRoute(
+./livechat/imports/server/rest/dashboards.ts-	'livechat/analytics/dashboards/charts/timings',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/visitors.info',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/visitors.pagesVisited/:roomId',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/visitors.chatHistory/room/:roomId/visitor/:visitorId',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/visitors.searchChats/room/:roomId/visitor/:visitorId',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/visitors.autocomplete',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/visitors.search',
+--
+./livechat/imports/server/rest/visitors.ts:API.v1.addRoute(
+./livechat/imports/server/rest/visitors.ts-	'livechat/:rid/messages',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department/:_id',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/departments/archived',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department/:_id/archive',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department/:_id/unarchive',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department.autocomplete',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department/:_id/agents',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department.listByIds',
+--
+./livechat/imports/server/rest/departments.ts:API.v1.addRoute(
+./livechat/imports/server/rest/departments.ts-	'livechat/department/isDepartmentCreationAvailable',
+--
+./livechat/imports/server/rest/upload.ts:API.v1.addRoute('livechat/upload/:rid', {
+./livechat/imports/server/rest/upload.ts-	async post() {
+--
+./livechat/imports/server/rest/rooms.ts:API.v1.addRoute(
+./livechat/imports/server/rest/rooms.ts-	'livechat/rooms',
+--
+./livechat/imports/server/rest/rooms.ts:API.v1.addRoute(
+./livechat/imports/server/rest/rooms.ts-	'livechat/rooms/filters',
+--
+./livechat/imports/server/rest/businessHours.ts:API.v1.addRoute(
+./livechat/imports/server/rest/businessHours.ts-	'livechat/business-hour',
+--
+./livechat/imports/server/rest/triggers.ts:API.v1.addRoute(
+./livechat/imports/server/rest/triggers.ts-	'livechat/triggers',
+--
+./livechat/imports/server/rest/triggers.ts:API.v1.addRoute(
+./livechat/imports/server/rest/triggers.ts-	'livechat/triggers/:_id',
+--
+./livechat/imports/server/rest/queue.ts:API.v1.addRoute(
+./livechat/imports/server/rest/queue.ts-	'livechat/queue',
+--
+./livechat/imports/server/rest/integrations.ts:API.v1.addRoute(
+./livechat/imports/server/rest/integrations.ts-	'livechat/integrations.settings',
+--
+./livechat/imports/server/rest/agent.ts:API.v1.addRoute(
+./livechat/imports/server/rest/agent.ts-	'livechat/agents/:agentId/departments',
+--
+./livechat/server/api/v1/config.ts:API.v1.addRoute(
+./livechat/server/api/v1/config.ts-	'livechat/config',
+--
+./livechat/server/api/v1/offlineMessage.ts:API.v1.addRoute(
+./livechat/server/api/v1/offlineMessage.ts-	'livechat/offline.message',
+--
+./livechat/server/api/v1/webhooks.ts:API.v1.addRoute(
+./livechat/server/api/v1/webhooks.ts-	'livechat/webhook.test',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute('livechat/room', {
+./livechat/server/api/v1/room.ts-	async get() {
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.close',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.closeByUser',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.transfer',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.survey',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.forward',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.visitor',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.join',
+--
+./livechat/server/api/v1/room.ts:API.v1.addRoute(
+./livechat/server/api/v1/room.ts-	'livechat/room.saveInfo',
+--
+./livechat/server/api/v1/transfer.ts:API.v1.addRoute(
+./livechat/server/api/v1/transfer.ts-	'livechat/transfer.history/:rid',
+--
+./livechat/server/api/v1/transcript.ts:API.v1.addRoute(
+./livechat/server/api/v1/transcript.ts-	'livechat/transcript',
+--
+./livechat/server/api/v1/customField.ts:API.v1.addRoute(
+./livechat/server/api/v1/customField.ts-	'livechat/custom.field',
+--
+./livechat/server/api/v1/customField.ts:API.v1.addRoute(
+./livechat/server/api/v1/customField.ts-	'livechat/custom.fields',
+--
+./livechat/server/api/v1/customField.ts:API.v1.addRoute(
+./livechat/server/api/v1/customField.ts-	'livechat/custom-fields',
+--
+./livechat/server/api/v1/customField.ts:API.v1.addRoute(
+./livechat/server/api/v1/customField.ts-	'livechat/custom-fields/:_id',
+--
+./livechat/server/api/v1/message.ts:API.v1.addRoute(
+./livechat/server/api/v1/message.ts-	'livechat/message',
+--
+./livechat/server/api/v1/message.ts:API.v1.addRoute(
+./livechat/server/api/v1/message.ts-	'livechat/message/:_id',
+--
+./livechat/server/api/v1/message.ts:API.v1.addRoute(
+./livechat/server/api/v1/message.ts-	'livechat/messages.history/:rid',
+--
+./livechat/server/api/v1/message.ts:API.v1.addRoute(
+./livechat/server/api/v1/message.ts-	'livechat/messages',
+--
+./livechat/server/api/v1/videoCall.ts:API.v1.addRoute(
+./livechat/server/api/v1/videoCall.ts-	'livechat/webrtc.call',
+--
+./livechat/server/api/v1/videoCall.ts:API.v1.addRoute(
+./livechat/server/api/v1/videoCall.ts-	'livechat/webrtc.call/:callId',
+--
+./livechat/server/api/v1/contact.ts:API.v1.addRoute(
+./livechat/server/api/v1/contact.ts-	'omnichannel/contact',
+--
+./livechat/server/api/v1/contact.ts:API.v1.addRoute(
+./livechat/server/api/v1/contact.ts-	'omnichannel/contact.search',
+--
+./livechat/server/api/v1/pageVisited.ts:API.v1.addRoute(
+./livechat/server/api/v1/pageVisited.ts-	'livechat/page.visited',
+--
+./livechat/server/api/v1/visitor.ts:API.v1.addRoute('livechat/visitor', {
+./livechat/server/api/v1/visitor.ts-	async post() {
+--
+./livechat/server/api/v1/visitor.ts:API.v1.addRoute('livechat/visitor/:token', {
+./livechat/server/api/v1/visitor.ts-	async get() {
+--
+./livechat/server/api/v1/visitor.ts:API.v1.addRoute(
+./livechat/server/api/v1/visitor.ts-	'livechat/visitor/:token/room',
+--
+./livechat/server/api/v1/visitor.ts:API.v1.addRoute('livechat/visitor.callStatus', {
+./livechat/server/api/v1/visitor.ts-	async post() {
+--
+./livechat/server/api/v1/visitor.ts:API.v1.addRoute('livechat/visitor.status', {
+./livechat/server/api/v1/visitor.ts-	async post() {
+--
+./livechat/server/api/v1/agent.ts:API.v1.addRoute('livechat/agent.info/:rid/:token', {
+./livechat/server/api/v1/agent.ts-	async get() {
+--
+./livechat/server/api/v1/agent.ts:API.v1.addRoute(
+./livechat/server/api/v1/agent.ts-	'livechat/agent.next/:token',
+--
+./livechat/server/api/v1/agent.ts:API.v1.addRoute(
+./livechat/server/api/v1/agent.ts-	'livechat/agent.status',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	':integrationId/:userId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	':integrationId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'sample/:integrationId/:userId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'sample/:integrationId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'info/:integrationId/:userId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'info/:integrationId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'add/:integrationId/:userId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'add/:integrationId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'remove/:integrationId/:userId/:token',
+--
+./integrations/server/api/api.js:Api.addRoute(
+./integrations/server/api/api.js-	'remove/:integrationId/:token',
+--
+./federation/server/endpoints/uploads.js:API.v1.addRoute(
+./federation/server/endpoints/uploads.js-	'federation.uploads',
+--
+./federation/server/endpoints/users.js:API.v1.addRoute(
+./federation/server/endpoints/users.js-	'federation.users.search',
+--
+./federation/server/endpoints/users.js:API.v1.addRoute(
+./federation/server/endpoints/users.js-	'federation.users.getByUsername',
+--
+./federation/server/endpoints/dispatch.js:API.v1.addRoute(
+./federation/server/endpoints/dispatch.js-	'federation.events.dispatch',
+--
+./federation/server/endpoints/requestFromLatest.js:API.v1.addRoute(
+./federation/server/endpoints/requestFromLatest.js-	'federation.events.requestFromLatest',

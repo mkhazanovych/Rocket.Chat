@@ -1,0 +1,74 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+allow_mixing
+
+interface IBaseModel
+
+interface IInvitesModel extends IBaseModel
+interface ITeamModel extends IBaseModel
+interface IImportDataModel extends IBaseModel
+interface IOAuthAppsModel extends IBaseModel
+interface IPermissionsModel extends IBaseModel
+interface IFederationKeysModel extends IBaseModel
+interface IAvatarsModel extends IBaseModel
+interface ICustomSoundsModel extends IBaseModel
+interface IWebdavAccountsModel extends IBaseModel
+interface IStatisticsModel extends IBaseModel
+interface ISessionsModel extends IBaseModel
+interface ISettingsModel extends IBaseModel
+interface ILivechatVisitorsModel extends IBaseModel
+interface IRolesModel extends IBaseModel
+interface INpsVoteModel extends IBaseModel
+interface IVideoConferenceModel extends IBaseModel
+interface IIntegrationsModel extends IBaseModel
+interface IIntegrationHistoryModel extends IBaseModel
+interface ITeamMemberModel extends IBaseModel
+interface ILivechatUnitMonitorsModel extends IBaseModel
+interface IMatrixBridgedRoomModel extends IBaseModel
+interface IReadReceiptsModel extends IBaseModel
+interface ILivechatTriggerModel extends IBaseModel
+interface IAnalyticsModel extends IBaseModel
+interface IReportsModel extends IBaseModel
+interface IFederationServersModel extends IBaseModel
+interface IInstanceStatusModel extends IBaseModel
+interface ICustomUserStatusModel extends IBaseModel
+interface IBannersModel extends IBaseModel
+interface ILivechatDepartmentModel extends IBaseModel
+interface IBannersDismissModel extends IBaseModel
+interface ILivechatAgentActivityModel extends IBaseModel
+interface IUsersSessionsModel extends IBaseModel
+interface IOmnichannelServiceLevelAgreementsModel extends IBaseModel
+interface IEmailMessageHistoryModel extends IBaseModel
+interface IMessageReadsModel extends IBaseModel
+interface INpsModel extends IBaseModel
+interface ILivechatBusinessHoursModel extends IBaseModel
+interface ILoginServiceConfigurationModel extends IBaseModel
+interface IOEmbedCacheModel extends IBaseModel
+interface IPushTokenModel extends IBaseModel
+interface IEmojiCustomModel extends IBaseModel
+interface IVoipRoomModel extends IBaseModel
+interface IMatrixBridgedUserModel extends IBaseModel
+interface IEmailInboxModel extends IBaseModel
+interface ILivechatPriorityModel extends IBaseModel
+interface IPbxEventsModel extends IBaseModel
+interface IUploadsModel extends IBaseModel
+interface IUserDataFilesModel extends IBaseModel
+interface IMessagesModel extends IBaseModel
+interface ISmarshHistoryModel extends IBaseModel
+interface ILivechatTagModel extends IBaseModel
+interface ILivechatDepartmentAgentsModel extends IBaseModel
+interface IUsersModel extends IBaseModel
+interface IRoomsModel extends IBaseModel
+interface ILivechatCustomFieldModel extends IBaseModel
+interface INotificationQueueModel extends IBaseModel
+interface ILivechatInquiryModel extends IBaseModel
+interface ICannedResponseModel extends IBaseModel
+interface ISubscriptionsModel extends IBaseModel
+interface ILivechatRoomsModel extends IBaseModel
+interface ICredentialTokensModel extends IBaseModel
+interface IExportOperationsModel extends IBaseModel
+interface IServerEventsModel extends IBaseModel
+
+
+@enduml
