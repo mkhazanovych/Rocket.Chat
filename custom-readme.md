@@ -23,6 +23,10 @@
 - tcp        0      0 0.0.0.0:45653           0.0.0.0:*               LISTEN      14407/node
 - in browser: http://127.0.0.1:45653/
 
+## Login
+- user admin - 1212:123
+- user 2 - 2:123
+
 ## Changes in MongoDB
 - select * from rocketchat.rocketchat_settings where _id = 'Cloud_Workspace_Client_Id';
 - update rocketchat.rocketchat_settings set value = true where _id = 'Cloud_Workspace_Client_Id';
